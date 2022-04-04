@@ -257,36 +257,123 @@ h1 {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  /* background-color: #1f1f1f; */
+  background-color: #1f1f1f;
+  color: white;
+  padding: 90px 0;
+  overflow: hidden;
+  position: relative;
 }
 
 .kaufman__triangle {
-
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  z-index: 1;
+  right: -210px;
+  top: 0;
 }
 
 .section-title_theme_dark {
-
+  z-index: 1;
 }
 
 .section-subtitle_theme_dark {
-
+  z-index: 1;
 }
 
 .table_theme_dark {
-
+  z-index: 1;
 }
 
-/* .table__cell_theme_dark {
+.table__cell_theme_dark {
   width: 200px;
-  color: white;
-  margin-right: 0;
   margin-top: 80px;
-} */
+}
 
-.table__heading_theme_dark {
+/* .table__heading_theme_dark {
 
 }
 
 .table__text_theme_dark {
 
+} */
+
+
+/* _________________блок footer_________________ */
+
+.footer {
+  background-color: #1f1f1f;
+  color: white;
+  min-height: 350px;
+  display: flex;
+}
+
+.footer__columns {
+  width: 90%;
+  margin: 60px auto 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__author {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: normal;
+  margin: 18px 0;
+}
+
+.footer__column_content_info {
+
+}
+
+.footer__column-heading {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.footer__column-links {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: normal;
+  list-style-type: none;
+}
+
+.footer__column-link {
+
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+.footer__column-link:last-of-type {
+  margin-bottom: 16px;
+}
+
+.footer__column_content_social {
+
+}
+
+.footer__column-heading {
+
+}
+
+.footer__social-icon {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+}
+
+.logo_place_footer {
+/* Не знаю какие данные писать для логотипа*/
 }
