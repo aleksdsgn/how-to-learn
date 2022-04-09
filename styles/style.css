@@ -159,24 +159,26 @@
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-}
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
 
 .table__cell {
   margin: 60px 0 0 0;
-  padding: 0;
-  list-style-type: none;
   width: 250px;
   text-align: left;
 }
 
 .table__heading {
+  margin: 0 0 20px 0;
   font-size: 24px;
   line-height: 1.15;
   font-weight: bold;
-  margin-bottom: 20px;
 }
 
 .table__text {
+  margin: 0;
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
@@ -253,7 +255,7 @@
 }
 
 .kaufman__triangle {
-  background-image: url(/images/kaufman-triangle.svg);
+  background-image: url("../images/kaufman-triangle.svg");
   background-size: contain;
   width: 877px;
   height: 877px;
