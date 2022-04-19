@@ -1,6 +1,11 @@
 .cards__item {
   /* display: flex;
   flex-direction: column; */
- /* width: 250px; */
- margin: 100px;
+ width: 250px;
+ /* margin: 100px; */
+}
+
+.cards__item:last-of-type {
+  /* align-self: flex-start; */
+  justify-self: start;
 }
