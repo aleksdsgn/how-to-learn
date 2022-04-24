@@ -1,5 +1,9 @@
 .video__iframes {
-  margin-top: 50px;
+  width: 1050px; /* ограничил ширину хоть и не было заявлено в брифе, чтобы контролировать перенос элементов */
+  margin: 50px 0 -50px;
+  padding: 0;
+  list-style-type: none;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  z-index: 1;
 }
